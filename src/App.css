@@ -1,14 +1,30 @@
+body {
+  background: hsla(198, 65%, 34%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(198, 65%, 34%, 1) 0%,
+    hsla(178, 44%, 32%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(198, 65%, 34%, 1) 0%,
+    hsla(178, 44%, 32%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(198, 65%, 34%, 1) 0%,
+    hsla(178, 44%, 32%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E6C8E", endColorstr="#2E7775", GradientType=1 );
+}
 .App {
   text-align: center;
+  color: #f5f4f4;
 }
 
 .App-header {
-  /* background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin); */
-  /* color: white; */
 }
