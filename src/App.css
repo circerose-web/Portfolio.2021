@@ -20,11 +20,12 @@ body {
   );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E6C8E", endColorstr="#2E7775", GradientType=1 );
+
+  /* background-image: url(./components/Pics/Hello!.png); */
 }
 .App {
-  text-align: center;
   color: #f5f4f4;
+  text-align: center;
 }
-
 .App-header {
 }

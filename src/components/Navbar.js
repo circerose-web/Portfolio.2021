@@ -10,14 +10,13 @@ function Navbar() {
       <ul className="list-none text-2xl flex items-center mr-6 space-x-3 pl-4">
         About
       </ul>
+
       <ul className="list-none text-2xl flex items-center mr-6 space-x-3 ">
         Projects
       </ul>
+
       <ul className="list-none text-2xl flex items-center mr-6 space-x-3 ">
         Contact Me
-      </ul>
-      <ul className="list-none text-2xl flex items-center mr-6 space-x-3 ">
-        My Resume
       </ul>
     </nav>
   );

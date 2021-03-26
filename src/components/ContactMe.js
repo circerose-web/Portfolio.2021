@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import axios from "axios";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
+
+import Resume from "./Pics/resume.png";
+import Git from "./Pics/github.png";
+import LinkedIn from "./Pics/linkedin.png";
 
 const useStyles = makeStyles({
   root: {
@@ -50,7 +52,7 @@ function ContactMe() {
       });
   };
   return (
-    <div>
+    <div className="contact">
       <div className="bg-white bg-opacity-50 max-w-2xl mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl w-1/2">
         <p className="text-center font-bold text-gray-700 text-2xl mb-5">
           Contact me!
@@ -86,9 +88,33 @@ function ContactMe() {
           )}
         </form>
       </div>
-      <h2>Let's connect!! You can find me on the following platforms:</h2>
-      <LinkedInIcon />
-      <GitHubIcon />
+      <div className="flex justify-center">
+        <a href="https://github.com/circerose-web" target="_blank">
+          <img
+            src={Git}
+            alt="github"
+            style={{ width: "150px", height: "150px" }}
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/circe-rose" target="_blank">
+          <img
+            src={LinkedIn}
+            alt="LinkedIn"
+            style={{ width: "150px", height: "150px" }}
+          />
+        </a>
+
+        <a
+          href="https://drive.google.com/file/d/1YMVcg8AYcRiPvpPad7j7MWmaIT-FUZJx/view?usp=sharing"
+          target="_blank"
+        >
+          <img
+            src={Resume}
+            alt="Hire Me!!"
+            style={{ width: "150px", height: "150px" }}
+          />
+        </a>
+      </div>
     </div>
   );
 }
