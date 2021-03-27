@@ -7,11 +7,11 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="App">
+      {/*<header className="App-header">*/}
       <Navbar />
-      <header className="App-header">
-        <About />
-        <ContactMe />
-      </header>
+      <About />
+      <ContactMe />
+      {/*</header>*/}
     </div>
   );
 }
