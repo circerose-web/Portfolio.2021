@@ -5,7 +5,7 @@ import LinkedIn from "./Pics/linkedin.png";
 
 function Footer() {
   return (
-    <footer className="bg-gray-500 flex justify-center">
+    <footer className="lg:bg-gray-500 flex justify-center">
       <ul className="list-none flex items-center mr-6 space-x-6">
         <li>
           <a href="https://github.com/circerose-web" target="_blank">

@@ -11,13 +11,14 @@ import Button from "@material-ui/core/Button";
 import HelloYou from "./Pics/helloyou.png";
 import PortPic from "./Pics/portfolio1.png";
 import LoremPic from "./Pics/Lorem.Picsum.API.png";
+import parallax from "parallax-scroll";
 
 const About = () => {
   return (
     <div className="font-sans text-lg pt-20 pb-6">
       <div className="grid grid-cols-2">
         <img
-          className="rounded-full h-96 w-96 shadow-2xl ml-32"
+          className="rounded-full h-5/6 shadow-2xl ml-32"
           src={Profile}
           alt="profile"
         />
@@ -29,25 +30,30 @@ const About = () => {
             width="800px"
             height="800px"
           />
-          <h1 className="text-2xl font-light pt-10 text-center">
+          <h1 className="text-3xl  text-shadow-lg font-light pt-2- text-center">
             {" "}
-            My name is Circe and I am a front end web developer.{" "}
+            My name is Circe and I am a front-end web developer.{" "}
           </h1>
           <ul>
             {/* <ul className="bg-red-50 bg-auto rounded-lg"> */}
             <li className="text-xl font-light pt-10 text-center">
               Front End: JavaScript, React, HTML5, CSS3
             </li>
-            <li className="text-xl font-light pt-4 text-center">
+            <li className="text-xl  font-light pt-4 text-center">
               Back End: Postgres, Node.js, Express
             </li>
-            <li className="text-xl font-light pt-4 text-center">
+            <li className="text-xl  font font-light pt-4 text-center">
               Soft Skills: Communication, Open-mindedness, Adaptability,
               Collaboration/Teamwork
             </li>
           </ul>
         </div>
       </div>
+      {/* <div className="bg-red-300 shadow-lg bg-opacity-30 mt-10 text-center pb-4 rounded-lg ml-40 mr-40"> */}
+      {/* <div className="text-right"> */}
+
+      {/* </div> */}
+      {/* </div> */}
       <div className="projects pt-32">
         <div className="grid grid-cols-2 col-span-2 space-x-0">
           <div className="pl-24 text-gray-500 flex justify-center">
@@ -68,10 +74,24 @@ const About = () => {
                   alt="BarCart"
                 />
               </FrontSide>
-              <BackSide style={{ backgroundColor: "#e2bcb7" }}>
-                <div className="flex flex-wrap justify-center pt-10">
-                  <Button>Go To Project</Button>
-                  <Button>View Raw Code</Button>
+              <BackSide style={{ backgroundColor: "#FEE2E2" }}>
+                <div className="flex flex-wrap justify-center pt-10 space-x-4">
+                  <a
+                    href="https://czc-thebarcart.herokuapp.com/"
+                    target="_blank"
+                  >
+                    <Button variant="contained" color="primary">
+                      Go To Project
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/circerose-web/blueBadgeCocktails-client"
+                    target="_blank"
+                  >
+                    <Button variant="contained" color="primary">
+                      View Raw Code
+                    </Button>
+                  </a>
                   <img
                     className="rounded-lg h-60 w-60 shadow-xl m-auto pt-4"
                     src={barcartpic}
@@ -144,10 +164,24 @@ const About = () => {
                     alt="Original Portfolio"
                   />
                 </FrontSide>
-                <BackSide style={{ backgroundColor: "#e2bcb7" }}>
-                  <div className="flex flex-wrap justify-center pt-10">
-                    <Button>Go To Project</Button>
-                    <Button>View Raw Code</Button>
+                <BackSide style={{ backgroundColor: "#FEE2E2" }}>
+                  <div className="flex flex-wrap justify-center pt-10 space-x-4">
+                    <a
+                      href="https://circerose-web.github.io/Circe-s-Portfolio/"
+                      target="_blank"
+                    >
+                      <Button variant="contained" color="primary">
+                        Go To Project
+                      </Button>
+                    </a>
+                    <a
+                      href="https://github.com/circerose-web/Circe-s-Portfolio"
+                      target="_blank"
+                    >
+                      <Button variant="contained" color="primary">
+                        View Raw Code
+                      </Button>
+                    </a>
                     <img
                       className="rounded-lg h-60 w-60 shadow-xl m-auto pt-4"
                       src={PortPic}
@@ -178,9 +212,30 @@ const About = () => {
                   alt="CSS creature"
                 />
               </FrontSide>
-              <BackSide style={{ backgroundColor: "#e2bcb7" }}>
-                <Button>Go To Project</Button>
-                <Button>View Raw Code</Button>
+              <BackSide style={{ backgroundColor: "#FEE2E2" }}>
+                <div className="flex flex-wrap justify-center pt-10 space-x-4">
+                  <a
+                    href="https://codepen.io/circe-rose/pen/wvWRaXO"
+                    target="_blank"
+                  >
+                    <Button variant="contained" color="primary">
+                      Go To Project
+                    </Button>
+                  </a>
+                  <a
+                    href="https://codepen.io/circe-rose/pen/wvWRaXO"
+                    target="_blank"
+                  >
+                    <Button variant="contained" color="primary">
+                      View Raw Code
+                    </Button>
+                  </a>
+                  <img
+                    className="rounded-lg h-60 w-60 shadow-xl m-auto pt-4"
+                    src={CSS}
+                    alt="brc"
+                  />
+                </div>
               </BackSide>
             </Flippy>
           </div>
@@ -234,10 +289,24 @@ const About = () => {
                     alt="Lorem"
                   />
                 </FrontSide>
-                <BackSide style={{ backgroundColor: "#e2bcb7" }}>
-                  <div className="flex flex-wrap justify-center pt-10">
-                    <Button>Go To Project</Button>
-                    <Button>View Raw Code</Button>
+                <BackSide style={{ backgroundColor: "#FEE2E2" }}>
+                  <div className="flex flex-wrap justify-center pt-10 space-x-4">
+                    <a
+                      href="https://circerose-web.github.io/LoremPic.Api/"
+                      target="_blank"
+                    >
+                      <Button variant="contained" color="primary">
+                        Go To Project
+                      </Button>
+                    </a>
+                    <a
+                      href="https://github.com/circerose-web/LoremPic.Api"
+                      target="_blank"
+                    >
+                      <Button variant="contained" color="primary">
+                        View Raw Code
+                      </Button>
+                    </a>
                     <img
                       className="rounded-lg h-60 w-60 shadow-xl m-auto pt-4"
                       src={LoremPic}

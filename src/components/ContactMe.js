@@ -3,9 +3,6 @@ import axios from "axios";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawing from "./Pics/drawing.png";
-import Resume from "./Pics/resume.png";
-import Git from "./Pics/github.png";
-import LinkedIn from "./Pics/linkedin.png";
 
 const useStyles = makeStyles({
   root: {
