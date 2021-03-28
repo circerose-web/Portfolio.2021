@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import About from "./Pics/about.nav.png";
 import Contact from "./Pics/contact.png";
 import Dot from "./Pics/dots.png";
+import Resume from "./Pics/resume.png";
+import Git from "./Pics/github.png";
+import LinkedIn from "./Pics/linkedin.png";
 
 function Navbar() {
   return (
@@ -32,6 +35,38 @@ function Navbar() {
           <img src={Dot} />
         </li>
       </ul>
+      {/* <ul>
+        <li>
+          <a href="https://github.com/circerose-web" target="_blank">
+            <img
+              src={Git}
+              alt="github"
+              style={{ width: "150px", height: "150px" }}
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/circe-rose" target="_blank">
+            <img
+              src={LinkedIn}
+              alt="LinkedIn"
+              style={{ width: "150px", height: "150px" }}
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/1YMVcg8AYcRiPvpPad7j7MWmaIT-FUZJx/view?usp=sharing"
+            target="_blank"
+          >
+            <img
+              src={Resume}
+              alt="Hire Me!!"
+              style={{ width: "150px", height: "150px" }}
+            />
+          </a>
+        </li>
+      </ul> */}
     </nav>
   );
 }

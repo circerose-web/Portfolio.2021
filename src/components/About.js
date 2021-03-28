@@ -18,42 +18,32 @@ const About = () => {
           src={Profile}
           alt="profile"
         />
-        <img
-          className="pt-20"
-          src={HelloYou}
-          alt="hello"
-          width="800px"
-          height="800px"
-        />
-        {/* <div className="space-y-4 bg-red-50 md:p-12 my-10 rounded-lg shadow-2xl w-3/4 text-gray-700 mb-6">
-          <span className="block">
-            <ul className="text-3xl font-medium">Front End </ul>
-            <ul className="text-2xl font-light">
-              JavaScript, React, HTML5, CSS3
-            </ul>
-          </span>
-          <span className="block">
+        <div>
+          <img
+            className="pt-20"
+            src={HelloYou}
+            alt="hello"
+            width="800px"
+            height="800px"
+          />
+          <h1 className="text-2xl font-light pt-10 text-center">
             {" "}
-            <ul className="text-3xl font-medium">Back End </ul>
-            <ul className="text-2xl font-light">Postgres, Node.js, Express</ul>
-          </span>
-          <span className="block">
-            {" "}
-            <ul className="text-3xl font-medium">Soft Skills</ul>
-            <ul className="text-2xl font-light">
-              Communication, Open-mindedness, Adaptability,
+            My name is Circe and I am a front end web developer.{" "}
+          </h1>
+          <ul>
+            {/* <ul className="bg-red-50 bg-auto rounded-lg"> */}
+            <li className="text-xl font-light pt-10 text-center">
+              Front End: JavaScript, React, HTML5, CSS3
+            </li>
+            <li className="text-xl font-light pt-4 text-center">
+              Back End: Postgres, Node.js, Express
+            </li>
+            <li className="text-xl font-light pt-4 text-center">
+              Soft Skills: Communication, Open-mindedness, Adaptability,
               Collaboration/Teamwork
-            </ul>
-          </span>
-          <span className="block">
-            {" "}
-            <ul className="text-3xl font-medium">Currently Learning</ul>
-            <ul className="text-2xl font-light">
-              TypeScript, Legacy React, Interaction Design Foundation-Beginner
-              UX course
-            </ul>
-          </span>
-        </div> */}
+            </li>
+          </ul>
+        </div>
       </div>
       <div className="projects pt-32">
         <div className="grid grid-cols-2 col-span-2 space-x-0">
@@ -81,24 +71,45 @@ const About = () => {
               </BackSide>
             </Flippy>
           </div>
-          <div className="pt-24">
-            <h1 className="text-3xl text-gray-700">Original Portfolio</h1>
+          <div className="pt-24 pb-16 bg-green-50">
+            <h1 className="text-3xl text-gray-700 font-semibold bg-green-50">
+              Original Portfolio
+            </h1>
+            <br />
+            <ul className="text-gray-700 font-semibold pb-4">
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+            </ul>
             <p className="text-xl text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure,
-              aliquid. Dolorum maxime maiores labore necessitatibus ipsum
-              excepturi expedita, itaque commodi sapiente veniam. Itaque fugit
-              dolorum sit, consequatur rem consequuntur facilis!
+              This portfolio was my first static webpage. Built using HTML and
+              CSS it is a starting point to introduce the structure of a
+              portfolio. It was also an introduction to styling libraries.
+              Looking back at this portfolio I can see how mush I have grown in
+              my coding capabilities as well as an improvement in my eye for
+              design and in creating a more pleasurable user experience.
             </p>
           </div>
         </div>
         <div className="grid grid-cols-2 space-y-0">
-          <div className="pt-24 pr-20 pl-10">
-            <h1 className="text-3xl text-gray-700">The Bar Cart</h1>
+          <div className="pt-24 pr-20 pb-16 bg-green-50">
+            <h1 className="text-3xl text-gray-700 font-semibold">
+              The Bar Cart
+            </h1>
+            <br />
+            <ul className="text-gray-700 font-semibold pb-4">
+              <li>React</li>
+              <li>Tailwind</li>
+              <li>Ant Design</li>
+              <li>Material UI</li>
+            </ul>
             <p className="text-xl text-gray-600 pr-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
-              voluptate, delectus asperiores mollitia vero assumenda repellat
-              et, perspiciatis porro ullam quos eaque dolor non alias quidem
-              laborum sequi consequatur. Ut?
+              This app was inspired by our desire to allow anyone to become
+              their own bartender during the 2020-21 Coronavirus Pandemic. Users
+              can register on the app to find cocktail recipes by using the
+              search functionality which calls on an external API. Users can
+              then favorite cocktails they're interested in, add them into their
+              library (MyBar) and also create and update their own drinks.
             </p>
           </div>
           <Flippy
@@ -149,28 +160,35 @@ const About = () => {
               </BackSide>
             </Flippy>
           </div>
-          <div className="pt-24 pr-20 pl-10">
-            <h1 className="text-3xl text-gray-700">
-              Princess Carolyn-Character made using only CSS
+          <div className="pt-24 pr-20 pl-10 bg-green-50">
+            <h1 className="text-3xl text-gray-700 font-semibold">
+              Princess Carolyn-Created with CSS
             </h1>
+            <br />
+            <ul className="text-gray-700 font-semibold pb-4">
+              <li>CSS</li>
+            </ul>
             <p className="text-xl text-gray-600 pr-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, delectus ipsum ipsam repudiandae, quasi laboriosam
-              nostrum qui autem exercitationem laudantium deleniti. Itaque sit
-              harum animi ab repellat tenetur, ut dolores.
+              Based on a character from a popular cartoon television show, this
+              creature was created using CSS and nothing else.
             </p>
           </div>
         </div>
         <div className="grid grid-cols-2 space-y-0">
-          <div className="pt-24 pr-20 pl-10">
-            <h1 className="text-3xl text-gray-700">
+          <div className="pt-24 pr-20 pl-10 bg-green-50">
+            <h1 className="text-3xl text-gray-700 font-semibold">
               The Office-"It is your Birthday."
             </h1>
+            <br />
+            <ul className="text-gray-700 font-semibold pb-4">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
             <p className="text-xl text-gray-600">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
-              nisi, ipsa enim modi doloremque cupiditate rerum fugit temporibus
-              nemo, vero numquam repudiandae non placeat eos quasi quod sint,
-              qui repellendus.
+              Fetching from the popular image sharing API Lorem Picsum these
+              webpage will generate a random photo each time the Button is
+              clicked.
             </p>
           </div>
           <Flippy
