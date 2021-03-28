@@ -1,17 +1,3 @@
 body {
-  background: hsla(198, 65%, 34%, 1);
-
-  background: linear-gradient(
-    90deg,
-    hsla(198, 65%, 34%, 1) 0%,
-    hsla(178, 44%, 32%, 1) 100%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E6C8E", endColorstr="#2E7775", GradientType=1 );
+  background-color: #f5fffa;
 }
-/*
-.App {
-  color: #f5f4f4;
-  text-align: center;
-}
-*/

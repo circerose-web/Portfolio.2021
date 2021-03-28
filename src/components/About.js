@@ -2,22 +2,30 @@ import React from "react";
 import "../App.css";
 import Profile from "./Pics/profilepic.jpeg";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
-import Portfolio from "./Pics/portfolio1.png";
-import BarcartApp from "./Pics/barcartapp.png";
+import Portfolio from "./Pics/portfoliologo.png";
+import BarcartApp from "./Pics/barcart2.png";
 import CSS from "./Pics/css-creature.png";
-import Lorem from "./Pics/Lorem.Picsum.API.png";
+import Lorem from "./Pics/lorem2.png";
 import Button from "@material-ui/core/Button";
+import HelloYou from "./Pics/helloyou.png";
 
 const About = () => {
   return (
-    <div className="font-sans text-lg pt-6 pb-6">
-      <div className="grid grid-cols-2  pl-60">
+    <div className="font-sans text-lg pt-20 pb-6">
+      <div className="grid grid-cols-2">
         <img
-          className="rounded-full h-96 w-96 shadow-2xl"
+          className="rounded-full h-96 w-96 shadow-2xl ml-32"
           src={Profile}
           alt="profile"
         />
-        <div className="space-y-4 bg-red-50 md:p-12 my-10 rounded-lg shadow-2xl w-3/4 text-gray-700 mb-6">
+        <img
+          className="pt-20"
+          src={HelloYou}
+          alt="hello"
+          width="800px"
+          height="800px"
+        />
+        {/* <div className="space-y-4 bg-red-50 md:p-12 my-10 rounded-lg shadow-2xl w-3/4 text-gray-700 mb-6">
           <span className="block">
             <ul className="text-3xl font-medium">Front End </ul>
             <ul className="text-2xl font-light">
@@ -45,11 +53,11 @@ const About = () => {
               UX course
             </ul>
           </span>
-        </div>
+        </div> */}
       </div>
-      <div className="projects">
+      <div className="projects pt-32">
         <div className="grid grid-cols-2 col-span-2 space-x-0">
-          <div className="pl-24">
+          <div className="pl-24 text-gray-500">
             <Flippy
               flipOnHover={true}
               flipOnClick={true}
@@ -58,15 +66,14 @@ const About = () => {
             >
               <FrontSide
                 style={{
-                  backgroundColor: "#f5f4f4",
+                  backgroundColor: "#ffdcdc",
                 }}
               >
                 <img
-                  style={{ width: "350px", height: "350px" }}
-                  src={Portfolio}
-                  alt="Portfolio"
+                  style={{ width: "375px", height: "375px" }}
+                  src={BarcartApp}
+                  alt="BarCart"
                 />
-                <h1 className="text-gray-700">First Portfolio</h1>
               </FrontSide>
               <BackSide style={{ backgroundColor: "#e2bcb7" }}>
                 <Button>Go To Project</Button>
@@ -74,9 +81,9 @@ const About = () => {
               </BackSide>
             </Flippy>
           </div>
-          <div className="text-white pt-24">
-            <h1 className="text-3xl">Original Portfolio</h1>
-            <p className="text-xl">
+          <div className="pt-24">
+            <h1 className="text-3xl text-gray-700">Original Portfolio</h1>
+            <p className="text-xl text-gray-600">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure,
               aliquid. Dolorum maxime maiores labore necessitatibus ipsum
               excepturi expedita, itaque commodi sapiente veniam. Itaque fugit
@@ -85,9 +92,9 @@ const About = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 space-y-0">
-          <div className="text-white pt-24">
-            <h1 className="text-3xl">The Bar Cart</h1>
-            <p className="text-xl">
+          <div className="pt-24 pr-20 pl-10">
+            <h1 className="text-3xl text-gray-700">The Bar Cart</h1>
+            <p className="text-xl text-gray-600 pr-4">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
               voluptate, delectus asperiores mollitia vero assumenda repellat
               et, perspiciatis porro ullam quos eaque dolor non alias quidem
@@ -102,15 +109,14 @@ const About = () => {
           >
             <FrontSide
               style={{
-                backgroundColor: "#f5f4f4",
+                backgroundColor: "#ffdcdc",
               }}
             >
               <img
-                style={{ width: "350px", height: "350px" }}
-                src={BarcartApp}
-                alt="The Bar Cart"
+                style={{ width: "375px", height: "375px" }}
+                src={Portfolio}
+                alt="Original Portfolio"
               />
-              <h1 className="text-gray-700">The Bar Cart</h1>
             </FrontSide>
             <BackSide style={{ backgroundColor: "#e2bcb7" }}>
               <Button>Go To Project</Button>
@@ -119,7 +125,7 @@ const About = () => {
           </Flippy>
         </div>
         <div className="grid grid-cols-2 space-y-0">
-          <div className="pl-24">
+          <div className="pl-24 text-gray-500">
             <Flippy
               flipOnHover={true}
               flipOnClick={true}
@@ -128,15 +134,14 @@ const About = () => {
             >
               <FrontSide
                 style={{
-                  backgroundColor: "#f5f4f4",
+                  backgroundColor: "#ffdcdc",
                 }}
               >
                 <img
-                  style={{ width: "350px", height: "350px" }}
+                  style={{ width: "375px", height: "375px" }}
                   src={CSS}
                   alt="CSS creature"
                 />
-                <h1 className="text-gray-700">CSS Creature</h1>
               </FrontSide>
               <BackSide style={{ backgroundColor: "#e2bcb7" }}>
                 <Button>Go To Project</Button>
@@ -144,11 +149,11 @@ const About = () => {
               </BackSide>
             </Flippy>
           </div>
-          <div className="text-white pt-24">
-            <h1 className="text-3xl">
-              Princess Caroline-Character made using only CSS
+          <div className="pt-24 pr-20 pl-10">
+            <h1 className="text-3xl text-gray-700">
+              Princess Carolyn-Character made using only CSS
             </h1>
-            <p className="text-xl">
+            <p className="text-xl text-gray-600 pr-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur, delectus ipsum ipsam repudiandae, quasi laboriosam
               nostrum qui autem exercitationem laudantium deleniti. Itaque sit
@@ -157,9 +162,11 @@ const About = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 space-y-0">
-          <div className="text-white pt-24">
-            <h1 className="text-3xl">The Office-"It is your Birthday."</h1>
-            <p className="text-xl">
+          <div className="pt-24 pr-20 pl-10">
+            <h1 className="text-3xl text-gray-700">
+              The Office-"It is your Birthday."
+            </h1>
+            <p className="text-xl text-gray-600">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
               nisi, ipsa enim modi doloremque cupiditate rerum fugit temporibus
               nemo, vero numquam repudiandae non placeat eos quasi quod sint,
@@ -174,15 +181,14 @@ const About = () => {
           >
             <FrontSide
               style={{
-                backgroundColor: "#f5f4f4",
+                backgroundColor: "#ffdcdc",
               }}
             >
               <img
-                style={{ width: "350px", height: "350px" }}
+                style={{ width: "375px", height: "375px" }}
                 src={Lorem}
-                alt="CSS creature"
+                alt="Lorem"
               />
-              <h1 className="text-gray-700">Lorem Picsum API</h1>
             </FrontSide>
             <BackSide style={{ backgroundColor: "#e2bcb7" }}>
               <Button>Go To Project</Button>
@@ -190,52 +196,6 @@ const About = () => {
             </BackSide>
           </Flippy>
         </div>
-        {/* <Flippy
-            flipOnHover={true}
-            flipOnClick={true}
-            flipDirection="horizontal"
-            style={{ width: "300px", height: "300px" }}
-          >
-            <FrontSide
-              style={{
-                backgroundColor: "#f5f4f4",
-              }}
-            >
-              <img
-                style={{ width: "300px", height: "250px" }}
-                src={Lorem}
-                alt="CSS creature"
-              />
-              <h1 className="text-gray-700">Lorem Picsum API</h1>
-            </FrontSide>
-            <BackSide style={{ backgroundColor: "#e2bcb7" }}>
-              <Button>Go To Project</Button>
-              <Button>View Raw Code</Button>
-            </BackSide>
-          </Flippy>
-          <Flippy
-            flipOnHover={true}
-            flipOnClick={true}
-            flipDirection="horizontal"
-            style={{ width: "300px", height: "300px" }}
-          >
-            <FrontSide
-              style={{
-                backgroundColor: "#f5f4f4",
-              }}
-            >
-              <img
-                style={{ width: "300px", height: "250px" }}
-                src={Lorem}
-                alt="CSS creature"
-              />
-              <h1 className="text-gray-700">Lorem Picsum API</h1>
-            </FrontSide>
-            <BackSide style={{ backgroundColor: "#e2bcb7" }}>
-              <Button>Go To Project</Button>
-              <Button>View Raw Code</Button>
-            </BackSide>
-          </Flippy> */}
       </div>
     </div>
   );

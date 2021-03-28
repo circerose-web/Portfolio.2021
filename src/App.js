@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       {/*<header className="App-header">*/}
       <Navbar />
-      <About />
-      <ContactMe />
+      <Route exact path="/" component={() => <About />} />
+      <Route exact path="/ContactMe" component={() => <ContactMe />} />
       {/*</header>*/}
     </div>
   );

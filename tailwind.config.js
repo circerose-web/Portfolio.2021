@@ -5,7 +5,8 @@ module.exports = {
     extend: {},
   },
   variants: {
+    textShadow: ["responsive", "hover", "focus"],
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tailwindcss-textshadow")],
 };
