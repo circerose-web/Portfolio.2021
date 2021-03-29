@@ -1,5 +1,4 @@
 {
-  "homepage": "https://circerose-web.github.io/Portfolio.2021/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -27,8 +26,6 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
