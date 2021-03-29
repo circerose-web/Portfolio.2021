@@ -17,11 +17,15 @@ const About = () => {
   return (
     <div className="font-sans text-lg pt-20 pb-6">
       <div className="grid grid-cols-2">
-        <img
-          className="rounded-full h-96 w-96 shadow-2xl ml-32"
-          src={Profile}
-          alt="profile"
-        />
+        <div className="flex">
+          <div className="m-auto">
+            <img
+              className="rounded-full h-96 w-96 shadow-2xl ml-32"
+              src={Profile}
+              alt="profile"
+            />
+          </div>
+        </div>
         <div>
           <img
             className="pt-20"
@@ -75,12 +79,12 @@ const About = () => {
                 />
               </FrontSide>
               <BackSide style={{ backgroundColor: "#FEE2E2" }}>
-                <div className="flex flex-wrap justify-center pt-10 space-x-4">
+                <div className="flex flex-wrap justify-center pt-10 space-x-2">
                   <a
                     href="https://czc-thebarcart.herokuapp.com/"
                     target="_blank"
                   >
-                    <Button variant="contained" color="primary">
+                    <Button variant="outlined" color="primary">
                       Go To Project
                     </Button>
                   </a>
@@ -88,7 +92,7 @@ const About = () => {
                     href="https://github.com/circerose-web/blueBadgeCocktails-client"
                     target="_blank"
                   >
-                    <Button variant="contained" color="primary">
+                    <Button variant="outlined" color="primary">
                       View Raw Code
                     </Button>
                   </a>
@@ -140,7 +144,7 @@ const About = () => {
               This portfolio was my first static webpage. Built using HTML and
               CSS it is a starting point to introduce the structure of a
               portfolio. It was also an introduction to styling libraries.
-              Looking back at this portfolio I can see how mush I have grown in
+              Looking back at this portfolio I can see how much I have grown in
               my coding capabilities as well as an improvement in my eye for
               design and in creating a more pleasurable user experience.
             </p>
@@ -165,12 +169,12 @@ const About = () => {
                   />
                 </FrontSide>
                 <BackSide style={{ backgroundColor: "#FEE2E2" }}>
-                  <div className="flex flex-wrap justify-center pt-10 space-x-4">
+                  <div className="flex flex-wrap justify-center pt-10 space-x-2">
                     <a
                       href="https://circerose-web.github.io/Circe-s-Portfolio/"
                       target="_blank"
                     >
-                      <Button variant="contained" color="primary">
+                      <Button variant="outlined" color="primary">
                         Go To Project
                       </Button>
                     </a>
@@ -178,7 +182,7 @@ const About = () => {
                       href="https://github.com/circerose-web/Circe-s-Portfolio"
                       target="_blank"
                     >
-                      <Button variant="contained" color="primary">
+                      <Button variant="outlined" color="primary">
                         View Raw Code
                       </Button>
                     </a>
@@ -213,12 +217,12 @@ const About = () => {
                 />
               </FrontSide>
               <BackSide style={{ backgroundColor: "#FEE2E2" }}>
-                <div className="flex flex-wrap justify-center pt-10 space-x-4">
+                <div className="flex flex-wrap justify-center pt-10 space-x-2">
                   <a
                     href="https://codepen.io/circe-rose/pen/wvWRaXO"
                     target="_blank"
                   >
-                    <Button variant="contained" color="primary">
+                    <Button variant="outlined" color="primary">
                       Go To Project
                     </Button>
                   </a>
@@ -226,7 +230,7 @@ const About = () => {
                     href="https://codepen.io/circe-rose/pen/wvWRaXO"
                     target="_blank"
                   >
-                    <Button variant="contained" color="primary">
+                    <Button variant="outlined" color="primary">
                       View Raw Code
                     </Button>
                   </a>
@@ -290,12 +294,12 @@ const About = () => {
                   />
                 </FrontSide>
                 <BackSide style={{ backgroundColor: "#FEE2E2" }}>
-                  <div className="flex flex-wrap justify-center pt-10 space-x-4">
+                  <div className="flex flex-wrap justify-center pt-10 space-x-2">
                     <a
                       href="https://circerose-web.github.io/LoremPic.Api/"
                       target="_blank"
                     >
-                      <Button variant="contained" color="primary">
+                      <Button variant="outlined" color="primary">
                         Go To Project
                       </Button>
                     </a>
@@ -303,7 +307,7 @@ const About = () => {
                       href="https://github.com/circerose-web/LoremPic.Api"
                       target="_blank"
                     >
-                      <Button variant="contained" color="primary">
+                      <Button variant="outlined" color="primary">
                         View Raw Code
                       </Button>
                     </a>

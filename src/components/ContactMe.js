@@ -3,6 +3,7 @@ import axios from "axios";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawing from "./Pics/drawing.png";
+import TextField from "@material-ui/core/TextField";
 
 const useStyles = makeStyles({
   root: {
@@ -25,7 +26,7 @@ function ContactMe() {
 
   const handleServerResponse = (ok, msg, form) => {
     setServerState({
-      submitting: false,
+      submitting: true,
       status: { ok, msg },
     });
     if (ok) {
@@ -50,7 +51,7 @@ function ContactMe() {
   };
   return (
     <div>
-      <div className="mx-auto self-center">
+      <form className="mx-auto self-center">
         <img
           className="ml-28 pt-10 text-center"
           src={Drawing}
@@ -60,9 +61,8 @@ function ContactMe() {
           <p className="text-center font-bold text-gray-700 text-2xl mb-5">
             Contact me!
           </p>
-          <form className="flex flex-col space-y-3" onSubmit={handleOnSubmit}>
+          <div className="flex flex-col space-y-3" onSubmit={handleOnSubmit}>
             <input
-              type="text"
               className="w-full border-2 h-10 border-gray-300 rounded outline-none"
               placeholder="Name"
             ></input>
@@ -71,14 +71,12 @@ function ContactMe() {
               className="w-full border-2 h-10 border-gray-300 rounded outline-none"
               placeholder="Email"
             ></input>
-            <input
-              type="text"
-              className="w-full h-64 border-2 border-gray-300 rounded outline-none"
-              placeholder="Your Message here"
-            ></input>
+            <input className="w-full h-64 border-2 border-gray-300 rounded outline-none"></input>
             <Button
               className={classes.root}
-              variant="contained"
+              variant="outlined"
+              size="medium"
+              type="submit"
               disabled={serverState.submitting}
             >
               {" "}
@@ -89,10 +87,10 @@ function ContactMe() {
                 {serverState.status.msg}
               </p>
             )}
-          </form>
+          </div>
         </div>
         <div className="flex justify-center"></div>
-      </div>
+      </form>
     </div>
   );
 }
