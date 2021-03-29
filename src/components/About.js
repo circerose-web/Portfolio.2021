@@ -11,7 +11,6 @@ import Button from "@material-ui/core/Button";
 import HelloYou from "./Pics/helloyou.png";
 import PortPic from "./Pics/portfolio1.png";
 import LoremPic from "./Pics/Lorem.Picsum.API.png";
-import parallax from "parallax-scroll";
 
 const About = () => {
   return (
@@ -83,6 +82,7 @@ const About = () => {
                   <a
                     href="https://czc-thebarcart.herokuapp.com/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Button variant="outlined" color="primary">
                       Go To Project
@@ -91,6 +91,7 @@ const About = () => {
                   <a
                     href="https://github.com/circerose-web/blueBadgeCocktails-client"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Button variant="outlined" color="primary">
                       View Raw Code
@@ -173,6 +174,7 @@ const About = () => {
                     <a
                       href="https://circerose-web.github.io/Circe-s-Portfolio/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <Button variant="outlined" color="primary">
                         Go To Project
@@ -181,6 +183,7 @@ const About = () => {
                     <a
                       href="https://github.com/circerose-web/Circe-s-Portfolio"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <Button variant="outlined" color="primary">
                         View Raw Code
@@ -221,6 +224,7 @@ const About = () => {
                   <a
                     href="https://codepen.io/circe-rose/pen/wvWRaXO"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Button variant="outlined" color="primary">
                       Go To Project
@@ -229,6 +233,7 @@ const About = () => {
                   <a
                     href="https://codepen.io/circe-rose/pen/wvWRaXO"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Button variant="outlined" color="primary">
                       View Raw Code
@@ -298,6 +303,7 @@ const About = () => {
                     <a
                       href="https://circerose-web.github.io/LoremPic.Api/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <Button variant="outlined" color="primary">
                         Go To Project
@@ -306,6 +312,7 @@ const About = () => {
                     <a
                       href="https://github.com/circerose-web/LoremPic.Api"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <Button variant="outlined" color="primary">
                         View Raw Code

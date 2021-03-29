@@ -8,7 +8,11 @@ function Footer() {
     <footer className="lg:bg-gray-500 flex justify-center">
       <ul className="list-none flex items-center mr-6 space-x-6">
         <li>
-          <a href="https://github.com/circerose-web" target="_blank">
+          <a
+            href="https://github.com/circerose-web"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={Git}
               alt="github"
@@ -17,7 +21,11 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/circe-rose" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/circe-rose"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={LinkedIn}
               alt="LinkedIn"
@@ -29,6 +37,7 @@ function Footer() {
           <a
             href="https://drive.google.com/file/d/1YMVcg8AYcRiPvpPad7j7MWmaIT-FUZJx/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src={Resume}
