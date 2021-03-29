@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio.2021/static/css/main.fcb3be69.chunk.css",
+    "main.js": "/Portfolio.2021/static/js/main.4f3aa161.chunk.js",
+    "main.js.map": "/Portfolio.2021/static/js/main.4f3aa161.chunk.js.map",
+    "runtime-main.js": "/Portfolio.2021/static/js/runtime-main.bd90e4c1.js",
+    "runtime-main.js.map": "/Portfolio.2021/static/js/runtime-main.bd90e4c1.js.map",
+    "static/css/2.25465378.chunk.css": "/Portfolio.2021/static/css/2.25465378.chunk.css",
+    "static/js/2.3cc6726f.chunk.js": "/Portfolio.2021/static/js/2.3cc6726f.chunk.js",
+    "static/js/2.3cc6726f.chunk.js.map": "/Portfolio.2021/static/js/2.3cc6726f.chunk.js.map",
+    "index.html": "/Portfolio.2021/index.html",
+    "static/css/2.25465378.chunk.css.map": "/Portfolio.2021/static/css/2.25465378.chunk.css.map",
+    "static/css/main.fcb3be69.chunk.css.map": "/Portfolio.2021/static/css/main.fcb3be69.chunk.css.map",
+    "static/js/2.3cc6726f.chunk.js.LICENSE.txt": "/Portfolio.2021/static/js/2.3cc6726f.chunk.js.LICENSE.txt",
+    "static/media/Lorem.Picsum.API.5f7c34bc.png": "/Portfolio.2021/static/media/Lorem.Picsum.API.5f7c34bc.png",
+    "static/media/barcart2.caed2e08.png": "/Portfolio.2021/static/media/barcart2.caed2e08.png",
+    "static/media/barcartapp.30148a2d.png": "/Portfolio.2021/static/media/barcartapp.30148a2d.png",
+    "static/media/css-creature.689cc512.png": "/Portfolio.2021/static/media/css-creature.689cc512.png",
+    "static/media/drawing.829afa4a.png": "/Portfolio.2021/static/media/drawing.829afa4a.png",
+    "static/media/github.19b65967.png": "/Portfolio.2021/static/media/github.19b65967.png",
+    "static/media/helloyou.1e73f9c3.png": "/Portfolio.2021/static/media/helloyou.1e73f9c3.png",
+    "static/media/lorem2.ae112f6c.png": "/Portfolio.2021/static/media/lorem2.ae112f6c.png",
+    "static/media/portfolio1.848605d0.png": "/Portfolio.2021/static/media/portfolio1.848605d0.png",
+    "static/media/portfoliologo.6ac1f5ca.png": "/Portfolio.2021/static/media/portfoliologo.6ac1f5ca.png",
+    "static/media/profilepic.2e77cfb8.jpeg": "/Portfolio.2021/static/media/profilepic.2e77cfb8.jpeg",
+    "static/media/resume.63858772.png": "/Portfolio.2021/static/media/resume.63858772.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd90e4c1.js",
+    "static/css/2.25465378.chunk.css",
+    "static/js/2.3cc6726f.chunk.js",
+    "static/css/main.fcb3be69.chunk.css",
+    "static/js/main.4f3aa161.chunk.js"
+  ]
+}
