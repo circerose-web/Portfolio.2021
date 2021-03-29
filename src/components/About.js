@@ -18,7 +18,7 @@ const About = () => {
     <div className="font-sans text-lg pt-20 pb-6">
       <div className="grid grid-cols-2">
         <img
-          className="rounded-full h-5/6 shadow-2xl ml-32"
+          className="rounded-full h-96 w-96 shadow-2xl ml-32"
           src={Profile}
           alt="profile"
         />
