@@ -34,7 +34,7 @@ function ContactMe() {
       });
   };
   return (
-    <div>
+    <div className="h-screen">
       <img
         className="ml-28 pt-10 text-center"
         src={Drawing}
